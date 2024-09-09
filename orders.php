@@ -72,7 +72,7 @@
                 <a href="stock.php">Stock</a>
                 <a href="#" class="active">Orders</a>
                 <a href="transactions.php">Transactions</a>
-                <a href="debts.html">Debts</a>
+                <a href="debts.php">Debts</a>
                 <a href="register.php">User</a>
             </div>
         </div>
@@ -152,8 +152,8 @@
                 <div class="orderListing">
 
                     <div class="tab">
-                        <button class="tablinks active" id="createOrderTab" onclick="openTab(event, 'CreateOrder')">Create New Order</button>
-                        <button class="tablinks" id="orderListTab" onclick="openTab(event, 'OrderList')">Order List</button>
+                        <button class="tablinks" id="createOrderTab" onclick="openTab(event, 'CreateOrder')">Create New Order</button>
+                        <button class="tablinks active" id="orderListTab" onclick="openTab(event, 'OrderList')">Order List</button>
                     </div>
 
                     <?php

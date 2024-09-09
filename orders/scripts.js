@@ -119,12 +119,6 @@ function completeOrder() {
     const customerName = document.getElementById('customer_name').value;
     let debtAmount = 0;
 
-    if(grandTotal === 0){
-        alert("please add product into the order list before completing the order");
-        return false;
-    }
-        return true;
-
     if (paymentMethod === 'debt') {
         debtAmount = parseFloat(document.getElementById('debt_input').value);
     }

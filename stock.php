@@ -45,7 +45,7 @@ session_start(); // Start the session to access session variables
             <a href="#" class="active">Stock</a>
             <a href="orders.php">Orders</a>
             <a href="transactions.php">Transactions</a>
-            <a href="debts.html">Debts</a>
+            <a href="debts.php">Debts</a>
             <a href="register.php">User</a>
         </div>  
       

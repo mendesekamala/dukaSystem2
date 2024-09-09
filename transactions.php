@@ -17,8 +17,9 @@
             <a href="stock.php">Stock</a>
             <a href="orders.php">Orders</a>
             <a href="#" class="active">Transactions</a>
-            <a href="debts.html">Debts</a>
+            <a href="debts.php">Debts</a>
             <a href="register.php">User</a>
+            
         </div>  
       
     </div>
